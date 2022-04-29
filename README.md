@@ -8,3 +8,10 @@
     - git add .
     - git commit -m "好きなコメント(英語)"
     - git push -u origin main
+
+## 必要ライブラリ
+pip install 入れたいライブラリ名
+
+でインストールできる
+
+- Flask
