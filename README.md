@@ -15,3 +15,4 @@ pip install 入れたいライブラリ名
 でインストールできる
 
 - Flask
+- gunicorn
