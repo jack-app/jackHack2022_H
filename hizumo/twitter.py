@@ -1,13 +1,21 @@
-thm="お題"
-sen="五感"
-ans="自分の回答"
-per="一致度"
+thm="あなたのお題は"
+sen="あなたの五感は"
+ans="あなたの回答は"
+per="あなたの一致度は"
 web="https://fivesenseh.herokuapp.com/"
+has="#特徴一致ゲーム"
 
-#１のところに結果を入れる
-print(thm+"1")
-print(sen+"1")
-print(ans+"1")
-print(per+"1")
-print(web)
-print("#特徴一致ゲーム")
+#"１"のところに結果を入れる
+def twitter():
+    sent=thm+"1"+"。"+sen+"1"+"。"+ans+"1"+"。"+per+"1"+"でした！"+web+has
+    print(sent)
+    return sent
+
+twitter()
+
+
+
+
+
+    
+
