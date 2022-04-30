@@ -72,10 +72,11 @@ def kakuritsu_table(odai, gokan):
     for list in lists:
         answers.append(list[2])
         probs.append(list[3])
-    return np.random.choice(answers, p = probs)
 
     cur.close()
     conn.close()
+
+    return np.random.choice(answers, p = probs)
 
 # 以下テスト用
 #create_table()
