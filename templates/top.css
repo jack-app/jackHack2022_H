@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
+
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+    /*background-color: #FFFAD4;*/
+}
+
+#title {
+    color: #F6246D;
+    text-align: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size: 50px;
+}
+
+.mybutton {
+    font-size: 24px;
+    text-align: center;
+    background-color: white;
+    color: #F6246D;
+    box-shadow: 0px 3px 0px 0 #B6B6B6;
+    border-radius: 50px;
+}
+
+.mybutton:active {
+    position: relative;
+    top: 3px;
+    box-shadow: none;
+}
